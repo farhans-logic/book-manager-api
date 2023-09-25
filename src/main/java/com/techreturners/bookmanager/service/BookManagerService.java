@@ -9,7 +9,6 @@ public interface BookManagerService {
     List<Book> getAllBooks();
     Book insertBook(Book book);
     Book getBookById(Long id);
-
-    //User Story 4 - Update Book By Id Solution
     void updateBookById(Long id, Book book);
+    void deleteBookById(Long id);
 }
